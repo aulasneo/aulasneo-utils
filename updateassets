@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo chown -R edxapp:edxapp /aulasneo3-themes
 sudo -H -u edxapp bash -c "
   source /edx/app/edxapp/edxapp_env
   cd /edx/app/edxapp/edx-platform/
