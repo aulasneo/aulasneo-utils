@@ -3,4 +3,6 @@
 sudo /edx/bin/supervisorctl restart edxapp_worker:
 sudo /edx/bin/supervisorctl restart lms:
 sudo /edx/bin/supervisorctl restart cms:
+sudo /edx/bin/supervisorctl restart ecommerce:
+sudo /edx/bin/supervisorctl restart ecomworker:
 
